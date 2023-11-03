@@ -79,6 +79,12 @@ article {
     height: 100;
     margin: 25px;
     padding: 25px;
+    transition: background-color 2s ease-out;
+}
+
+article:hover {
+    background-color: azure;
+    cursor: pointer;
 }
 
 main article h3 {
