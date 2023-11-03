@@ -128,7 +128,6 @@ for (const button of buttons) {
   if (button.value != "Create New Donut") {
     button.addEventListener("click", (event) => {
       console.log(event.target);
-      // console.log(button);
       event.target.closest(".single-donut").remove();
     })
   }
