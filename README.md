@@ -2,7 +2,7 @@
 ## Setup
 Fork and clone this repo. Navigate to the GitHub Pages site at cristiangarc.github.io/donuts-inventory-app
 
-![image of an orange donut with the word donut](img/donut-crud-logo.png)
+![image of an orange donut with the word donut](img/donuts-crud-logo.png)
 
 ## How to Use the Site
 ### Creating a Donut
