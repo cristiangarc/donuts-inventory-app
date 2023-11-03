@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuts CRUD</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script defer src="main.js"></script>
+    <script defer src="createDonut.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Donuts Inventory</h1>
+    </header>
+    <main>
+        <section class="donuts">
+            <article class="first-article single-donut">
+                <h3>chocolate sprinkles</h3>
+                <img style="width: 150px" src="https://purepng.com/public/uploads/large/purepng.com-donutfood-dessert-donut-doughnut-fat-941524635175i5xtv.png" alt="chocolate, sprinkled donut">
+                <br />
+                <h4 style="color: purple">In Stock</h4>
+                <h4>$1.00</h4>
+                <h4>kcal: 300</h4>
+                <input type="submit" value="Remove Donut" />
+            </article>
+        </section>
+        <section class="add-form">
+            <form id="new-donut">
+                <h2>Add Donut</h2>
+                <br />
+                <label for="donut">
+                    Donut:
+                    <br />
+                    <input id="donut" name="donut" type="text" required/>
+                </label>
+                <br />
+                <label for="price">
+                    Price in USD:
+                    <br />
+                    <input id="price" name="price" type="number" required/>
+                </label>
+                <br />
+                <label for="calories">
+                    kcal:
+                    <br />
+                    <input id="calories" name="calories" type="number" required/>
+                </label>
+                <br />
+                <label for="inStock">
+                    In Stock?
+                    <select id="inStock" name="inStock" required>\
+                        <option value="">---Select---</option>
+                        <option value="true">yes</option>
+                        <option value="false">no</option>
+                    </select>
+                </label>
+                <br />
+                Vegan?
+                <br />
+                <label class="isVeganYes" for="isVeganYes">
+                    Yes
+                    <input id="isVeganYes" name="isVegan" type="radio" />
+                </label>
+                <label class="isVeganNo" for="isVeganNo">
+                    No
+                    <input id="isVeganNo" name="isVegan" type="radio" checked />
+                </label>
+                <br />
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Create New Donut"/>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

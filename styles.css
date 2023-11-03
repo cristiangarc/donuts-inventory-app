@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap");
+
+html,
+body {
+  color: black;
+  background-color: #76A555;
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+header {
+    color: whitesmoke;
+    background-color: #FA2D41;
+    height: 75px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+section.donuts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section.add-form {
+    /* border: 2px solid gold; */
+    margin: 25px;
+}
+
+form {
+    border: 2px solid navy;
+    display: block;
+    padding: 25px;
+}
+
+form label {
+    /* border: 1px solid red; */
+    display: block;
+    text-align: left;
+}
+
+label input {
+    height: 20px;
+    width: 200px;
+}
+
+#inStock {
+    text-align: center;
+    height: 23px;
+    width: 100px;
+}
+
+label.isVeganYes {
+    /* border: 1px solid green; */
+    display: block;
+}
+
+label.isVeganNo {
+    /* border: 1px solid orange; */
+    display: block;
+}
+
+article {
+    border: 2px solid navy;
+    width: 100;
+    height: 100;
+    margin: 25px;
+    padding: 25px;
+}
+
+main article h3 {
+    text-align: center;
+}
+
+img {
+    padding: 25px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 780px) {
+    section.donuts {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
