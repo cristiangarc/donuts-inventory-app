@@ -115,11 +115,12 @@ const donuts = [
 
 for (const i of '01234') {
   const donut = donuts[Number(i)];
-  // generate an article
-  generateDonut(donut.name, donut.priceInCents / 100, donut.inStock, donut.isVegan, donut.calories);
   if (i == '4') {
     const article = document.querySelector('.first-article');
     addInStockDynamic(article);
+  } else {
+    // generate an article
+    generateDonut(donut.name, donut.priceInCents / 100, donut.inStock, donut.isVegan, donut.calories);
   }
 }
 
