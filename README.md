@@ -1,10 +1,12 @@
 # donuts-inventory-app
 ## Setup
-Fork and clone this repo. Navigate to the GitHub Pages site at cristiangarc.github.io/donuts-inventory-app
+Fork and clone this repo. Navigate to the GitHub Pages site at [cristiangarc.github.io/donuts-inventory-app](cristiangarc.github.io/donuts-inventory-app)
 
-![image of an orange donut with the word donut](img/donuts-crud-logo.png)
+<!-- ![image of an orange donut with the word donut](img/donuts-crud-green.png) -->
 
-## How to Use the Site
+## How to Use the App
+<img align="left" width="180" height="180" src="img/donuts-crud-green.png">
+
 ### Creating a Donut
 You can create a new donut item by filling out the form on the right-hand side of the page. Enter the name of the donut, the price (as an integer) in dollars, and the kcalories, select if the donut is in stock, and check if the donut is vegan.
 
