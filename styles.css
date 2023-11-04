@@ -103,6 +103,26 @@ main article h3 {
     text-align: center;
 }
 
+.create-a-donut {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.create-a-donut:hover {
+    border: 1px solid gray;
+    margin: 1px;
+}
+
+.reset {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.reset:hover {
+    border: 1px solid gray;
+    margin: 1px;
+}
+
 img {
     padding: 25px;
     display: block;
