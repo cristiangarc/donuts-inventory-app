@@ -21,8 +21,14 @@ h6 {
 
 header {
     color: whitesmoke;
-    background-color: #FA2D41;
+    background-color: red;
     height: 75px;
+    transition: background-color 2s ease-out;
+}
+
+header:hover {
+    background-color: rgb(128, 0, 0);
+    cursor: pointer;
 }
 
 main {
@@ -44,6 +50,12 @@ form {
     border: 2px solid navy;
     display: block;
     padding: 25px;
+    transition: background-color 2s ease-out;
+}
+
+form:hover {
+    background-color: violet;
+    cursor: pointer;
 }
 
 form label {
@@ -97,6 +109,16 @@ article {
 article:hover {
     background-color: azure;
     cursor: pointer;
+}
+
+.remove-donut {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.remove-donut:hover {
+    border: 1px solid gray;
+    margin: 1px;
 }
 
 main article h3 {
