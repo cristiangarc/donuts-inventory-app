@@ -9,6 +9,7 @@ const createDonut = (name, price=0, inStock=false, isVegan=false, calories=100, 
   const removeButton = document.createElement("button");
 
   removeButton.textContent = "Remove Donut";
+  removeButton.classList.add("remove-donut");
   removeButton.addEventListener("click", (event) => {
     // find the closest li to this button and remove it
     event.target.closest(".single-donut").remove();
