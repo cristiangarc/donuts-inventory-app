@@ -54,7 +54,7 @@ form {
 }
 
 form:hover {
-    background-color: violet;
+    background-color: pink;
     cursor: pointer;
 }
 
