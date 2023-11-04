@@ -65,12 +65,24 @@ label input {
 
 label.isVeganYes {
     /* border: 1px solid green; */
-    display: block;
+    display: inline-block;
+    /* width: 100px; */
+    padding: 25px;
+}
+
+#isVeganYes {
+    display: inline-block;
+    width: 25px;
 }
 
 label.isVeganNo {
     /* border: 1px solid orange; */
-    display: block;
+    display: inline-block;
+}
+
+#isVeganNo {
+    display: inline-block;
+    width: 25px;
 }
 
 article {
@@ -79,6 +91,12 @@ article {
     height: 100;
     margin: 25px;
     padding: 25px;
+    transition: background-color 2s ease-out;
+}
+
+article:hover {
+    background-color: azure;
+    cursor: pointer;
 }
 
 main article h3 {
