@@ -5,8 +5,6 @@ form.addEventListener("submit", (event) => {
 
     const { donut, price, inStock, isVeganYes, calories } = event.target;
 
-    console.log(event.target);
-
     let isInStock = false;
     const inStockVal = inStock.value;
     if (typeof inStockVal == 'string') {
@@ -15,7 +13,7 @@ form.addEventListener("submit", (event) => {
         }
     };
 
-    generateDonut(donut.value, price.value, isInStock, isVeganYes.checked, calories.value);
+    generateDonut(donut.value.toLowerCase(), price.value, isInStock, isVeganYes.checked, calories.value);
     
     form.reset();
 })
