@@ -37,7 +37,7 @@ const addInStockDynamic = (article) => {
   if (isFirstArticle) {
     h4StockVal = article.children[3];
   }
-  h4StockVal.addEventListener("click", (event) => {
+  h4StockVal.addEventListener("click", () => {
       const isInStock = h4StockVal.textContent == "In Stock";
       if (!isInStock) {
           h4StockVal.textContent = "In Stock";
@@ -47,8 +47,6 @@ const addInStockDynamic = (article) => {
         h4StockVal.setAttribute("style", "color: #82FA2D");
       }
   })
-
-  // return h4StockVal;
 }
 
 const generateDonut = (name, price, inStock, isVegan, url) => {
