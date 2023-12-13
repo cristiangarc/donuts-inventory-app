@@ -1,6 +1,6 @@
 # donuts-inventory-app
 ## Setup
-Fork and clone this repo. Navigate to the GitHub Pages site at [cristiangarc.github.io/donuts-inventory-app](cristiangarc.github.io/donuts-inventory-app)
+Fork and clone this repo. Navigate to the GitHub Pages site at [https://cristiangarc.github.io/donuts-inventory-app](cristiangarc.github.io/donuts-inventory-app)
 
 ## How to Use the App
 
